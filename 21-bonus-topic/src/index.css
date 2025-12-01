@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "helvetica neue";
+  color: white;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+button {
+  padding-inline: 16px;
+  padding-block: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+  margin-top: 16px;
+}

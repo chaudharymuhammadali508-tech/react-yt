@@ -2,6 +2,7 @@ import React from 'react'
 
 const App = () => {
       function pageScrolling(elem){
+        console.log("elem:",elem)
            if(elem>0){
         console.log("scrolling down");}
         else{

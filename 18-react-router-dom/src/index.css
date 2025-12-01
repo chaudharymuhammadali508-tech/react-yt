@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "helvetica neue";
+  color: white;
+}
+html,body{
+   height: 100%;
+  width:100%;
+  background-color: black; 
+}
+h1{
+position: absolute;
+left:50%;
+top:50%;
+transform: translate(-50%,-50%);
+font-size: 100px;
+text-decoration: underline;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  background-color: rgb(127, 140, 255);
+}
+.nav .link{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
